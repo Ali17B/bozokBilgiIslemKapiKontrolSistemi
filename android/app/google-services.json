@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "380487807369",
+    "project_id": "bilgiislemkapi",
+    "storage_bucket": "bilgiislemkapi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380487807369:android:6364f651582d974a61f158",
+        "android_client_info": {
+          "package_name": "com.example.bikapikontrolsistemi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjJ2G2X92y_urkIh-bmf3nu5UPLOMDToA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
