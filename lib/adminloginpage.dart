@@ -45,23 +45,23 @@ class _AdminLoginPageState extends State<AdminLoginPage> {
             Stack(
               children: [
                 Container(
-                  height: 150, // Bu, AppBar'ın yerini alacak
+                  height: 150, 
                   decoration: BoxDecoration(
                     color: Color.fromARGB(255, 143, 14, 5),
                   ),
                 ),
                 Positioned(
-                  top: 15, // Logo ve metnin üstten konumu
-                  left: 20, // Logo'nun soldan konumu
+                  top: 15, 
+                  left: 20, 
                   child: Image.asset(
-                    'assets/logobozok.png', // Logo
-                    width: 120, // Logo genişliği
+                    'assets/logobozok.png', 
+                    width: 120, 
                     fit: BoxFit.contain,
                   ),
                 ),
                 Positioned(
-                  top: 60, // Metnin üstten konumu
-                  left: 190, // Metnin soldan konumu
+                  top: 60, 
+                  left: 190, 
                   child: Text(
                     'BİLGİ İŞLEM DAİRE BAŞKANLIĞI',
                     style: TextStyle(
@@ -118,7 +118,7 @@ class _AdminLoginPageState extends State<AdminLoginPage> {
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all(Colors.white),
                       side: MaterialStateProperty.all(BorderSide(
-                          color: Colors.black, width: 0)), // Çerçeve ekledik
+                          color: Colors.black, width: 0)), 
                       shape: MaterialStateProperty.all(RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30),
                       )),
